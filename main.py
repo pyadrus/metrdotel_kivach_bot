@@ -10,6 +10,7 @@ from system.dispatcher import dp
 
 
 def delete_yesterdays_records():
+    """Работа с базой данных"""
     try:
         # Подключиться к базе данных
         conn = sqlite3.connect('database/database.db')
